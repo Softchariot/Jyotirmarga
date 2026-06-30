@@ -1,6 +1,6 @@
 // Point straight at the backend. Override by setting VITE_API_URL in a
 // client/.env file if your server runs somewhere other than localhost:4000.
-const BASE = "http://localhost:4000/api";
+const BASE = "https://jyotirmarga-uakt.vercel.app/api";
 
 export async function fetchEntries() {
   const res = await fetch(`${BASE}/entries`);
